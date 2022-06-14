@@ -1,0 +1,44 @@
+@media screen and (max-width:768px) {
+    .right-sidebar{
+        display: none;
+    }
+}
+
+.right-sidebar{
+    background-color: #FAFBFC;
+    // border: 1px solid red;
+    position: absolute;
+    top: 85px;
+    right: 0;
+    width: 40%;
+    height: 100vh;
+    padding: 0 20px;
+    box-shadow: -10px 6px 10px #9b9b9b;
+
+    &__container{
+        .upcoming-meetings{
+            &__title{
+                // border: 1px solid red;
+                display: flex;
+                justify-content: space-between;
+                margin-top: 10px;
+                width: 100%;
+                position: relative;
+
+                &::after{
+                    content: '';
+                    width: 100%;
+                    height: 1px;
+                    background-color: #EDEDED;
+                    position: absolute;
+                    bottom: -15px;
+                }
+
+                &__heading{
+                    color: #263446;
+                    font-weight: 800;
+                }
+            }
+        }
+    }
+}
