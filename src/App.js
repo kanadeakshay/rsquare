@@ -1,7 +1,10 @@
+import Header from "./compo/header/header";
+
 function App() {
   return (
     <div className="App">
-      Hello World
+      {/* header */}
+      <Header></Header>
     </div>
   );
 }

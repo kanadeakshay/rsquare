@@ -1,0 +1,80 @@
+.container {
+  width: 100%;
+  // border: 1px solid red;
+  padding: 15px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .searchbox {
+    // border: 1px solid blue;
+    padding: 0 10px;
+    width: 60%;
+    height: 45px;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: center;
+
+    .icon {
+      margin: 0 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        margin-top: 5px;
+        width: 80%;
+        height: 20px;
+      }
+    }
+
+    .inputbox {
+      height: 45px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .search {
+        background-color: #f7f7f7;
+        border: none;
+        width: 100%;
+        font-size: 15px;
+        padding: 10px;
+
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+
+  .profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .info{
+      padding-left: 15px;
+      .name{
+        font-weight: 600;
+        padding-top: 8px;
+      }
+      .position{
+        font-size: small;
+        font-weight: 400;
+        padding-bottom: 8px;
+      }
+    }
+    .toggle-btn{
+      margin-left: 30px;
+      cursor: pointer;
+      img{
+        width: 15px;
+        height: 15px;
+      }
+    }
+  }
+}
