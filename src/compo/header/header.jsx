@@ -6,6 +6,7 @@ import searchicon from "./../../assets/searchicon.svg";
 import toggleicon from "./../../assets/toggle.svg";
 import threedots from "./../../assets/three-dots.svg";
 import RightSideBar from "../rightsidebar/rightsidebar";
+import LeftSideBar from "../leftsidebar/leftsidebar";
 
 function Header() {
   const [open, setOpen] = useState(false);
@@ -98,6 +99,7 @@ function Header() {
           </div>
         </div>
       </header>
+      <LeftSideBar></LeftSideBar>
       {open ? <RightSideBar></RightSideBar> : null}
     </>
   );
