@@ -25,6 +25,7 @@ function Currentprojects() {
         </div>
         <div className="current-project-cards">
           <Projectcard></Projectcard>
+          <Projectcard></Projectcard>
         </div>
       </div>
     </>

@@ -2,6 +2,7 @@
     margin-top: 5px;
     // border: 1px solid;
     padding: 10px 0;
+    overflow: hidden;
 
     .current-project-title{
         display: flex;
@@ -62,5 +63,11 @@
         font-size: 0.8rem;
         color: #6E6F7D;
         margin-bottom: 15px;
+    }
+
+    .current-project-cards{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
     }
 }
