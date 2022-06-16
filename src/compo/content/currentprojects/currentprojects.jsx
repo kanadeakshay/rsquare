@@ -16,13 +16,13 @@ function Currentprojects() {
               <img src={filtericon} alt="filter icon" />
             </div>
             <div className="moreinfo-dots-icon">
-                <img src={threedots} alt="more info" />
+              <img src={threedots} alt="more info" />
             </div>
           </div>
         </div>
-          <div className="current-project-subheading">
-              Projects that are currently in progress
-            </div>
+        <div className="current-project-subheading">
+          Projects that are currently in progress
+        </div>
         <div className="current-project-cards">
           <Projectcard></Projectcard>
         </div>
