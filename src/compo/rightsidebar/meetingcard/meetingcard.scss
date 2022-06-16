@@ -43,6 +43,41 @@
         justify-content: space-between;
         align-items: center;
 
+        .meetingcard-people{
+            .meetingcard-people-list{
+                list-style: none;
+                // display: flex;
+                // flex-direction: row;
+                padding: 0;
+                // border: 1px solid;
+                // position: relative;
+            }
+            .people-list-first{
+                display: inline-block;
+                // position: absolute;
+                position: relative;
+                z-index: 4;
+            }
+            .people-list-second{
+                display: inline-block;
+                // position: absolute;
+                position: relative;
+                z-index: 3;
+                right: 15px;
+            }
+            .people-list-third{
+                display: inline-block;
+                // position: absolute;
+                position: relative;
+                z-index: 2;
+                right: 30px;
+                img{
+                    width: 35px;
+                    height: 35px;
+                }
+            }
+        }
+
         .meetingcard-invite{
             display: flex;
             justify-content: center;

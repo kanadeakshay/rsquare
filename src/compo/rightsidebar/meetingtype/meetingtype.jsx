@@ -8,7 +8,7 @@ function Meetingtype(props) {
     const [open, setOpen] = useState(false);
   return (
     <div className="meetings-container">
-      <div className="meeting-title">
+      <div className="meeting-title" onClick={() => setOpen(!open)}>
         <div className="meeting-title-heading">{props.type}</div>
         <div className="toggle-btn" onClick={() => setOpen(!open)}>
           <img src={togglebtn} alt="toggle-btn" className={open ? "open" : "close"} />
