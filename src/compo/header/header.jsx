@@ -50,7 +50,7 @@ function Header() {
               colors={["#81657E", "#3EA3AF", "#F0AB3D", "#C271B4", "#C20D90"]}
             />
             <div className="info">
-              <div className="name">Oliver Smith</div>
+              <div className="name">Akshay Kanade</div>
               <div className="position">vendor</div>
             </div>
             <div

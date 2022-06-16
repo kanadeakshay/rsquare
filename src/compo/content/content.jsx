@@ -8,7 +8,7 @@ function Content() {
   return (
     <div className="content-container">
       {/* head/welcome note section */}
-      <div className="welcome-note">Welcome back, Andrew!</div>
+      <div className="welcome-note">Welcome back, Akshay!</div>
       <div className="welcome-message">
         Have a look at the Quick Progress Bar.
       </div>
