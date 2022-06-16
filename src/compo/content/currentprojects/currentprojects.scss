@@ -1,0 +1,66 @@
+.current-project-container{
+    margin-top: 5px;
+    // border: 1px solid;
+    padding: 10px 0;
+
+    .current-project-title{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        .current-project-heading{
+            font-size: 1.3rem;
+            font-weight: 800;
+            color: #192434;
+            // margin-bottom: 10px;
+            margin-bottom: 5px;
+        }
+
+        .current-project-heading-btns{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .filter-btn{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border: 2px solid #e8ebef;
+                font-size: 0.8rem;
+                padding: 8px 10px;
+                font-weight: 500;
+                border-radius: 5px;
+                cursor: pointer;
+
+                img{
+                    margin-left: 8px;
+                    width: 12px;
+                    height: 12px;
+                }
+            }
+
+            .moreinfo-dots-icon{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border: 2px solid #e8ebef;
+                font-size: 0.8rem;
+                padding: 8px 10px;
+                font-weight: 500;
+                border-radius: 5px;
+                margin-left: 10px;
+                cursor: pointer;
+                
+                img{
+                    width: 15px;
+                    height: 15px;
+                }
+            }
+        }
+    }
+    .current-project-subheading{
+        font-size: 0.8rem;
+        color: #6E6F7D;
+        margin-bottom: 15px;
+    }
+}

@@ -1,0 +1,117 @@
+.project-card {
+  border: 2px solid #e8ebef;
+  border-radius: 10px;
+  padding: 10px 14px;
+  width: 325px;
+  max-width: 350px;
+
+  .project-card-title {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: #11132a;
+    margin-bottom: 5px;
+  }
+
+  .project-card-property-name {
+    font-size: 0.7rem;
+    color: #11132a;
+    margin-bottom: 10px;
+  }
+
+  .project-card-price-timestamp {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #11132a;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+    .project-card-price {
+        margin-right: 30px;
+      img {
+        height: 12px;
+        margin-right: 5px;
+      }
+    }
+    .project-card-timestamp {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      img {
+        width: 16px;
+        height: 16px;
+        margin-right: 8px;
+      }
+      span {
+        margin-left: 2px;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .project-progressbar{
+      padding: 0;
+      margin-bottom: 15px;
+      progress{
+        border: none;
+        width: 100%;
+        background: #14A9F9;
+        color: #14A9F9;
+        height: 12px;
+        margin-bottom: 5px;
+    }
+    progress::-moz-progress-bar {
+        background: #14A9F9;
+      }
+      
+      progress::-webkit-progress-value {
+        border-radius: 4px;
+        background: #14A9F9;
+      }
+      
+      progress::-webkit-progress-bar {
+        // border-radius: 2px;
+        background: #EDEDED;
+      }
+    .project-progressbar-subheading{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 0.7rem;
+        color: #6E6F7D;
+        font-weight: 600;
+
+        p{
+            margin: 0;
+            padding: 0;
+        }
+    }
+  }
+
+  .project-card-moreinfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .project-profile-pic-name {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      span{
+        margin-left: 10px;
+        font-weight: 500;
+        font-size: 0.8rem;
+      }
+    }
+
+    .project-moreinfo-btn{
+        border:none;
+        background-color: #14A9F9;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 0.7rem;
+    }
+  }
+}
