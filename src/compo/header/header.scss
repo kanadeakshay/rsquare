@@ -96,17 +96,21 @@
   .mob-sidebar {
     // border: 1px solid blue;
     position: fixed;
-    right: 10px;
+    // right: 10px;
+    right: 0;
     bottom: 0;
+    top: 0;
     width: 70vw;
     max-width: 300px;
     height: 100vh;
     background-color: white;
     box-shadow: -20px 0px 11px 1px #9b9b9b;
-    .mob-container {
-      // border: 1px solid rgb(236, 19, 55);
 
-      padding: 25px;
+    .mob-container {
+      width: 100%;
+      // border: 1px solid rgb(236, 19, 55);
+      // padding: 25px;
+      padding: 80px 25px 0 25px;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
