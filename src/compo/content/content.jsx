@@ -1,6 +1,7 @@
 import React from "react";
 import "./content.scss";
 import Currentprojects from "./currentprojects/currentprojects";
+import Invoices from "./invoices/invoices";
 import Statscard from "./stats/statscard";
 
 function Content() {
@@ -48,6 +49,9 @@ function Content() {
 
       {/* current project section */}
       <Currentprojects></Currentprojects>
+
+      {/* pending invoices section */}
+      <Invoices></Invoices>
     </div>
   );
 }

@@ -1,0 +1,101 @@
+.invoice-card {
+  border: 2px solid #e8ebef;
+  border-radius: 10px;
+  padding: 10px 14px;
+  // width: 100%;
+    min-width: 220px;
+  margin-bottom: 10px;
+
+  .invoice-card-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #11132a;
+    margin-bottom: 5px;
+
+    img {
+      margin-top: 10px;
+      height: 18px;
+      margin-right: 4px;
+    }
+
+    span {
+      font-size: 1.5rem;
+      font-weight: 800;
+    }
+  }
+  
+  .status-amountTxt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+
+    .amount-txt{
+        font-size: 0.9rem;
+        font-weight: 600;
+        color: #6E6F7D;
+    }
+
+    .invoice-status{
+        font-size: 0.8rem;
+        color: white;
+        padding: 8px 12px;
+        border-radius: 3px;
+    }
+
+    .approved{
+        background-color: #15C15D;
+    }
+    .pending{
+        background-color: #14A9F9;
+    }
+  }
+
+  .person-timestamp{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    .person-name-timestamp{
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+        .person-name{
+            font-size: 0.9rem;
+            font-weight: 700;
+        }
+        .timestamp{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .invoice-id{
+                font-size: 0.8rem;
+            }
+            .invoice-date{
+                font-size: 0.8rem;
+                color: #6E6F7D;
+                font-weight: 500;
+                margin-left: 10px;
+            }
+        }
+    }
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .invoice-card {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .invoice-card{
+    margin-right: 10px;
+  }
+}
