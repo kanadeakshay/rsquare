@@ -1,6 +1,7 @@
 .meetings-container{
     padding-bottom: 15px;
     .meeting-title{
+        cursor: pointer;
         display: flex;
         justify-content: space-between;
         align-items: center;
