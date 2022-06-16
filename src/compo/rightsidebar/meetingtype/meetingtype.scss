@@ -1,0 +1,36 @@
+.meetings-container{
+    padding-bottom: 15px;
+    .meeting-title{
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .meeting-title-heading{
+            font-weight: 500;
+            font-size: small;
+        }
+
+        .toggle-btn{
+            cursor: pointer;
+            img{
+                margin-top: 5px;
+                width: 5px;
+                transform: rotate(90deg);
+            }
+
+            .open{
+                transform: rotate(-90deg);
+            }
+            .close{
+                transform: rotate(90deg);
+            }
+        }
+    }
+    .show{
+        display: static;
+    }
+    .hidden{
+        display: none;
+    }
+}

@@ -1,0 +1,104 @@
+.meetingcard{
+    // border: 1px solid blue;
+    background-color: #FAFBFC;
+    padding-top: 20px;
+
+    .meetingcard-subheading{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 10px;
+        font-size: 0.7rem;
+        .meeting-period{
+            color: #14A9F9;
+        }
+
+        .meetingcard-three-dots{
+            img{
+                height: 12px;
+            }
+        }
+    }
+
+    .meetingcard-heading{
+        font-size: 1rem;
+        font-weight: bold;
+        padding-bottom: 10px;
+        color: #192434;
+    }
+
+    .meetingcard-time{
+        font-size: 0.7rem;
+        color: #75808E;
+        padding-bottom: 15px;
+        .clock{
+            font-weight: bold;
+            color: #192434;
+            margin-left: 10px;
+        }
+    }
+
+    .meetingcard-people-join{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .meetingcard-people{
+            .meetingcard-people-list{
+                list-style: none;
+                // display: flex;
+                // flex-direction: row;
+                padding: 0;
+                // border: 1px solid;
+                // position: relative;
+            }
+            .people-list-first{
+                display: inline-block;
+                // position: absolute;
+                position: relative;
+                z-index: 4;
+            }
+            .people-list-second{
+                display: inline-block;
+                // position: absolute;
+                position: relative;
+                z-index: 3;
+                right: 15px;
+            }
+            .people-list-third{
+                display: inline-block;
+                // position: absolute;
+                position: relative;
+                z-index: 2;
+                right: 30px;
+                img{
+                    width: 35px;
+                    height: 35px;
+                }
+            }
+        }
+
+        .meetingcard-invite{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            letter-spacing: 0.1rem;
+            background-color: #14A9F9;
+            border: none;
+            padding: 8px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+
+            &:hover{
+                background-color: #0991da;
+            }
+
+            img{
+                width: 14px;
+                height: 14px;
+                margin-right: 15px;
+            }
+        }
+    }
+}

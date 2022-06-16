@@ -1,0 +1,123 @@
+@media screen and (max-width:768px) {
+    .right-sidebar{
+        display: none;
+    }
+}
+
+.right-sidebar{
+    background-color: #FAFBFC;
+    // border: 1px solid red;
+    position: absolute;
+    // top: 100px;
+    right: 0;
+    width: 35%;
+    max-width: 320px;
+    height: 100vh;
+    padding: 0 20px;
+    // box-shadow: -10px 6px 10px #9b9b9b;
+
+    &__container{
+        // background-color: #263446;
+        width: 100%;
+        .upcoming-meetings{
+            &__title{
+                // border: 1px solid red;
+                display: flex;
+                justify-content: space-between;
+                margin-top: 10px;
+                width: 100%;
+                position: relative;
+                margin-bottom: 24px;
+
+                .three-dot-icon{
+                    margin-top: 4px;
+                }
+
+                &::after{
+                    content: '';
+                    width: 100%;
+                    height: 1px;
+                    background-color: #EDEDED;
+                    // background-color: black;
+                    position: absolute;
+                    bottom: -10px;
+                }
+
+                &__heading{
+                    color: #263446;
+                    font-weight: 800;
+                }
+            }
+        }
+
+        .todays-meetings{
+            .todays-meeting-title{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .todays-meeting-title-heading{
+                    font-weight: 500;
+                    font-size: small;
+                }
+
+                .toggle-btn{
+                    cursor: pointer;
+                    img{
+                        margin-top: 5px;
+                        width: 5px;
+                        transform: rotate(90deg);
+                    }
+                }
+            }
+            .show{
+                display: static;
+            }
+            .hidden{
+                display: none;
+            }
+        }
+
+        .recent-activities{
+            // border: 1px solid red;
+            margin-top: 20px;
+            &__title{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 10px;
+                width: 100%;
+                position: relative;
+                margin-bottom: 24px;
+
+                .three-dot-icon{
+                    margin-top: 4px;
+                }
+
+                &::after{
+                    content: '';
+                    width: 100%;
+                    height: 1px;
+                    background-color: #EDEDED;
+                    // background-color: black;
+                    position: absolute;
+                    bottom: -10px;
+                }
+
+                &__heading{
+                    color: #263446;
+                    font-weight: 800;
+                }
+            }
+        }
+    }
+
+    &::before{
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: '';
+        width: 1px;
+        height: 70%;
+        background-color: #ededed;
+    }
+}
