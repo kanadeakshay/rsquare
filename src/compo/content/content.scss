@@ -7,7 +7,8 @@
         font-size: 1.3rem;
         font-weight: bold;
         color: #192434;
-        margin-bottom: 10px;
+        // margin-bottom: 10px;
+        margin-bottom: 5px;
     }
     .welcome-message{
         font-size: 0.8rem;
@@ -15,9 +16,9 @@
     }
 
     .stats-container{
+        // border: 1px solid;
         display: flex;
         flex-direction: column;
-        // margin-right: 5px;
         .stats-container-combo{
             display: flex;
             justify-content: space-between;
